@@ -5,4 +5,4 @@ def solution(n,a,b):
         if a%2 != 0 and a+1 == b:
             return k
         else:
-            n, a, b = n/2, math.ceil(a/2), math.ceil(b/2)
+            n, a, b = n/2, math.ceil(a/2), math.ceil(b/2) ###
